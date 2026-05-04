@@ -1,0 +1,223 @@
+[
+  {
+    "aspect": "Data Strategy",
+    "description": "Alignment of data initiatives with business and IT strategies to drive organizational value from data.",
+    "phases": {
+      "1": "No data strategy",
+      "2": "Analytics and data related improvements need to be aligned to a target",
+      "3": "Data strategy is part of the IT strategy. Data is still not in focus, \"classic\" IT aspects are dominant.",
+      "4": "Data related initiatives do not get priority, get delayed, expected results stay being a promise",
+      "5": "Data Strategy is separated, it's focusing on business goals and it's in line with IT strategy",
+      "6": "It's hard to keep strategies in synchron due to lack of \"interfaces\". Minor changes are not aligned or simply ignored that makes significant reworks also hard to implement. AI does not fit well into data strategy.",
+      "7": "Data Strategy is integrated with business and IT strategies. AI has its own chapter within that or is developed as a separated one."
+    }
+  },
+  {
+    "aspect": "Data Governance",
+    "description": "Frameworks, processes, and tools ensuring data is properly managed, controlled, and compliant across the organization.",
+    "phases": {
+      "1": "No data governance. Data asset is not known but used.",
+      "2": "Legal issues draw attention on the lack of data governance. Reports are challenged by people not trusting underlying data sources.",
+      "3": "Critical data sets and their sources are identified. Critical data is governed (e.g. GDPR, data for audit reports)",
+      "4": "Standalone regulations on data and its processing exist without a comprehensive, controversy-free framework. No one has a comprehensive overview on company data asset.",
+      "5": "Data governance is aided by a toolset (e.g. data catalog, business glossary, report catalog), a DG organisation is set up, data owners are identified.",
+      "6": "Data Governance becomes a bottleneck of data management processes: data governance processes and tools are not yet integrated withing the data management ecosystem, people usually don't identfy them as useful but as a pain in the ass.",
+      "7": "DG tools and processes gets highly integrated and automated to reveal bottlenecks and still fulfilling their desired functions. All systems are integrated with data catalog, full lineage is provided."
+    }
+  },
+  {
+    "aspect": "Data Quality",
+    "description": "Measurement, monitoring, and improvement of data accuracy, consistency, and reliability across the enterprise.",
+    "phases": {
+      "1": "IT performs no or technical only data quality inspections",
+      "2": "Significant decision(s) made wrong because of data errors done in Excel. People in key process(es) claim for better data quality, workaround costs and risks are recognized",
+      "3": "Data Quality improvements appear",
+      "4": "In spite of having isolated solutions, critical DQ issues keep persisting",
+      "5": "DQ is managed in critical DM processes",
+      "6": "DQ is measured and managed at many points of data lifecycle idependently. DQ rules are not in synchron, may even contradict each other.",
+      "7": "A DQ solution is implemented to serve enterprise-wide DQ needs"
+    }
+  },
+  {
+    "aspect": "Single Source of Truth / Master Data Management",
+    "description": "Establishing authoritative data sources and managing master data to eliminate contradictions and redundancy.",
+    "phases": {
+      "1": "There is no SSOT",
+      "2": "Trusted reports contradict each other by definition",
+      "3": "SSOT awareness on critical data (finance, alerts, etc), master data is identified",
+      "4": "Master data is still distributed among source and analytical systems",
+      "5": "Some master data is managed, SSOT is labelled (typically core systems consider themseves as master regarding e.g. product, etc)",
+      "6": "The lack of general concept / definition on Master Data allows opportunistic definitions. (The \"definition\" or \"understanding\" of master data depends on circumstances: if it makes a solution easyer to achieve, than we call is \"master\". If it's problematic, than better not.)\n\nTypical case: SSoT of customer cannot be solved exclusively by traditional core systems - the need for a single solution becomes critical",
+      "7": "An MDM solution regading critical master data (usually: customer, product) is implemented, it may also cover reference data management."
+    }
+  },
+  {
+    "aspect": "Allocation of Data Processing Competences",
+    "description": "Distribution of data processing responsibilities between IT and business departments across the organization.",
+    "phases": {
+      "1": "E2E data processing is linked to persons",
+      "2": "John Doe has left the company and no one knows how he has assembled the reporting excel file / SQL query",
+      "3": "Properly processing data is linked to business departments having sme-s and key users, while data integration and preparation tasks are provided by IT",
+      "4": "IT becomes a bottleneck, so departments build data management silo-s to serve their own business purposes",
+      "5": "Data integration and warehousing is done by IT, from the data mart layer and above it's up to departments if they do it on their own or get served by a central BI organisation.",
+      "6": "Departments fight for having sufficient IT capacity dedicated for their development needs. Workarounds arise that break technological and methodological standards.",
+      "7": "Business users get widely involved in creating data services by applying LC/NC solutions - the IT gets partially released of creating simple data products, that revelas bottlenecks."
+    }
+  },
+  {
+    "aspect": "Technology Related Skills",
+    "description": "Technical competencies and role definitions required for effective data management across IT and business.",
+    "phases": {
+      "1": "Dominance of personal competencies (that defines technology in use)",
+      "2": "One has no capacity to cover all data management roles",
+      "3": "Technology related roles are (more or less) separated by architectural layers",
+      "4": "Complex tasks fall on the ground due to data management layer-related roles",
+      "5": "Competences are aligned to data management processes and not vice versa",
+      "6": "IT reaches its limits in serving business in an E2E way, significant involvement of key user SME-s on business side is a must.\nThe changing data consumer roles requires education to enable data self service on a daily basis, which requires more time allocated to the data consuming tasks from the business side.",
+      "7": "Data Management technology related competences are shared across the organization (IT and business) based on the roles and business domains (sme-s). \nData management professionals are ratehr consultants who are enabling the utilization of data."
+    }
+  },
+  {
+    "aspect": "Data Management Approach",
+    "description": "Overall methodology and toolset applied to manage, integrate, and leverage organizational data assets.",
+    "phases": {
+      "1": "Reactive instead of proactive data management, small data sets are processed",
+      "2": "Business requirements cannot be fulfilled without a dedicated data management toolset",
+      "3": "Data related projects are run silo-wise, more DM tools are already present",
+      "4": "Parallel functions, diverse solutions are present but they cannot become a company-wide solution by not being integrated yet",
+      "5": "Data management is aligned to a platform (DWH, DL, etc) that allows advanced analytics. Predictive analytical capabilities and first AI/ML based (isolated) solutions appear.",
+      "6": "AI/ML is subject of spending money without significant results. Still waiting for a magic to happen, while some afraid of having their job substituted by machines, while \"classic\" data management developments suffer the lack of resources.",
+      "7": "AI provides some stable use cases and becomes widely accepted as a data management discipline within the company. AICC-s appear at some departments.\"Classic\" data management and advanced analytics  find their ways to cooperate."
+    }
+  },
+  {
+    "aspect": "Analytical Focus",
+    "description": "Evolution of analytical capabilities from descriptive reporting to predictive, real-time, and AI-driven insights.",
+    "phases": {
+      "1": "Descriptive analytics is dominant, mainly provided in Excel",
+      "2": "Business needs some forecast",
+      "3": "Some isolated predictive models appear, descriptive solutions are stable in T-1.",
+      "4": "Predictive analytics shows its limits, disappointment pushes the focus back to descriptive solutions where more recent (near) real-time solutions are expected",
+      "5": "T-1 and (near) real time analytics are parts of the data management ecosystem, AI/ML is still seeking its place. The need for better predictions on long, mid, short (and even very short term, like in-day) predictions grow.",
+      "6": "Data Management has hard times to break out of \"old\" frames of T-1 days classic BI approach. Both real-time and AI mean a challenge to solve.",
+      "7": "Real time data services and data lake concept are part of the unified data platform. AI solutions. The trust regarding prediction and their performance are growing. Some prescriptive solutions appear as a pilot/PoC."
+    }
+  },
+  {
+    "aspect": "Way of Creating Data Products",
+    "description": "Methods and processes for developing reports, dashboards, and data services for business consumption.",
+    "phases": {
+      "1": "Reports are manually assembled of SQL / stored procedures",
+      "2": "Too many and too long SQL-s that IT cannot manage and business does not trust anymore",
+      "3": "Business domains have their data marts that contain all essential data elements for their analytics. IT \"only\" helps with modifying/extending DM-s, business can serve itself from the analytical layer and above.",
+      "4": "Developing DM-s to silo-wise shadow BI systems is caused by the restricetd access to necessary data. It makes a wast part of development activities and costs.",
+      "5": "Self service BI tool(s) spreading across the company. IT focus shifts from creating and maintaining data marts toward managing new data sets and various reporting tools.",
+      "6": "The amount and variety of data management tools is overwhelming for the IT, but business units are not able to operate the applications they are about to use.",
+      "7": "Data shopping concept integrates DaaS (data as a service) and data governance on one platform"
+    }
+  },
+  {
+    "aspect": "Data Access and Trust in Data Products",
+    "description": "Managing data availability, access controls, and trustworthiness of analytical outputs across the enterprise.",
+    "phases": {
+      "1": "Source system reports with limited functionality",
+      "2": "Business can no longer wait for IT, data is often exported for further analysis",
+      "3": "DWH and Data Marts are created, access is managed by table/cube-related rights",
+      "4": "Data products by unknown origin and trustworthiness appear across the enterprise without dedicated management - thanks to shadow BI and various data exports.",
+      "5": "A unified data platform is up and running. An access management framwork covering the still remaining system silos and the data platform in an integrated way is also set up.",
+      "6": "Using data is not linked to its costs. While IT owns it, business users are main cost generators. Vast amount of db copies fatten the DWH/DL while many reports and DM-s are not in use anymore.",
+      "7": "Data shopping is linked to cost management - data is available on a pay-as-you-go basis. Users can subscribe to data services that have their internal price."
+    }
+  },
+  {
+    "aspect": "Data Management Organization",
+    "description": "Organizational structure and coordination of data management teams across IT and business units.",
+    "phases": {
+      "1": "No dedicated BI team, IT does reporting (exclusively)",
+      "2": "1st scene of \"Business does not understand IT, IT does not understand Business\"",
+      "3": "BA-s get onboarded / trained",
+      "4": "BA-s and SQL magicians are linked to business units (contra IT)",
+      "5": "Shadow BI-s become department-level CoE-s, central alignment is missing",
+      "6": "Distributed data management units work on partially or completely overlapping developments while don't have sufficient capacity to cover all business needs.",
+      "7": "Data has a dedicated organization that covers IT and business competences. Department BI groups / CoE-s are aligned by a coordinating org unit (e.g. DM Board)"
+    }
+  },
+  {
+    "aspect": "Head of Data",
+    "description": "Leadership role responsible for overseeing data management strategy and operations at the executive level.",
+    "phases": {
+      "1": "No dedicated Head of Data",
+      "2": "No one is responsible for some critical reports and it becomes an issue",
+      "3": "CIO/COO/CFO counts as a head of data.",
+      "4": "CIO/COO/CFO feels overwhelmed by data management related issues, needs a dedicated person for the job. Occasionally wannabe CDO-s apply for the role (and usually get ignored)",
+      "5": "CDO is a standalone position (from C-1 to C-3)",
+      "6": "Data related motions get slow by sharing management focus and resources (mainly) with IT operation, while Data Management is still an area of conflict between Business and IT.",
+      "7": "CDO is at least C-1, consulting C-level management"
+    }
+  },
+  {
+    "aspect": "BI & Reporting Tools",
+    "description": "Selection, standardization, and evolution of business intelligence and reporting technology across the organization.",
+    "phases": {
+      "1": "Excel sheets & SQL queries",
+      "2": "Migrating Excel and SQL reports to BI tools",
+      "3": "The usage of BI tools appear and spread acorss the company, at least one becomes a \"wannabe standard\" and some other isolated solutions are also promoted while Excel still holds a strong positions in analytics",
+      "4": "BI tools become tools to maintain information silos by different technological background and organic development.",
+      "5": "SSBI by a standard toolset and data as a service available at a unified data platform.",
+      "6": "Needs exceed the limits of the standard toolset, new tools need to be onboarded to serve needs that are not standard. Tools have to be linked to a business purpose.",
+      "7": "BI solutions appear integrated in other solutions (mobile, presentations, etc)"
+    }
+  },
+  {
+    "aspect": "Data Processing Tools",
+    "description": "Technology stack used for data integration, warehousing, and processing throughout the data lifecycle.",
+    "phases": {
+      "1": "From SQL to Excel",
+      "2": "The technological direction to handle analytical data sets is determinde by IT's tech skills (e.g. I'm good at MySql so the DWH will be assembled of that …\")",
+      "3": "Directions of development in data management are determined by the technology used for setting up the DWH.",
+      "4": "Applying different technology for shadow IT/BI is a tool of isolation & separation",
+      "5": "A unified data platform has to be flexible enough to incorporate and serve data from and to technological stacks that differ from the tech main stream",
+      "6": "Streaming, cloud, IoT and AI mean new technologica challenges to incorporate into the data ecosystem.",
+      "7": "An enterprise-scale framework allows to use a variety of technologies in an integrated way without letting them proliferate."
+    }
+  },
+  {
+    "aspect": "Data Federation",
+    "description": "Cross-organizational data sharing, access coordination, and platform-based data distribution approaches.",
+    "phases": {
+      "1": "Silo-wise data management",
+      "2": "Org units need data from each other but don't get access",
+      "3": "Operative data management processes get documented and published",
+      "4": "Accessing data gets over-administarted, various bypasses appear across the enterprise",
+      "5": "A data management platform is created",
+      "6": "By having a data management platform, isolated solutions still grow to serve needs that are hard to meet by standard data management processes",
+      "7": "Data Mesh concept is implemented"
+    }
+  },
+  {
+    "aspect": "Data Architecture Layers",
+    "description": "Structural layers of data storage and processing from transactional sources to analytical platforms.",
+    "phases": {
+      "1": "Solely transactional systems represent data sources, their data gets exported to csv and Excel.",
+      "2": "Transactional systems cannot fulfil data needs, the amount of data exceeds the capacity of Excel",
+      "3": "Essential data sources are loaded into a DWH, analytics is mainly based on data marts",
+      "4": "The monolythic DWH cannot fit all analytical needs, sandboxes and other isolated data sets as analytical sources without proper management appear",
+      "5": "New data sources are channeled into a governed data platform, which is managed and available for the whole organization via access controls. No need for 'shadow' data copies across the organization. Source system data sets are available on the new platform (also).",
+      "6": "Data is duplicated as often as it's needed (DL, DWH, DM, reports, etc.). Expressions like \"enough storage and processing capacity\" make no sense.",
+      "7": "Virtualisation allows rationalisation in data and capacity usage while it becomes more suitable for monitoring and internal accounting."
+    }
+  },
+  {
+    "aspect": "Cloud Management",
+    "description": "Strategy and execution of cloud adoption for data management alongside on-premises infrastructure.",
+    "phases": {
+      "1": "Full on-prem, run by IT",
+      "2": "Centralized local IT shows its limits",
+      "3": "Some isolated applications are run in the Cloud",
+      "4": "Cloud-related initiatives get killed by not fitting on-prem security concept",
+      "5": "A significant motion is carried to create a cloud tenant incorporating many functions earlier running on-prem. The organisation gets familiar with possibilities and restrictions of managing big volume and variety of data in cloud environment",
+      "6": "While creating solutions in the cloud, on-prem solutions keep growing. Co-existence by the lack of synchron and demarcation results parallel worlds of data and double costs.",
+      "7": "Cloud ecosystem is in place for the relevant use cases. \nThe balance between on-prem and cloud solutions is set up and the decision between the alternatives is functionality and cost-benefit based."
+    }
+  }
+]

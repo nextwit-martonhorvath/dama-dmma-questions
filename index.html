@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DAMA DMMA Question Bank</title>
+<style>
+  :root {
+    --primary: #2563eb;
+    --primary-light: #dbeafe;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text: #1e293b;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+    --active-green: #16a34a;
+    --inactive-gray: #94a3b8;
+    --radius: 8px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--primary);
+    color: white;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  header h1 { font-size: 1.5rem; font-weight: 700; }
+  header p { font-size: 0.875rem; opacity: 0.85; margin-top: 0.25rem; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 1.5rem; }
+
+  /* Tabs */
+  .tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap;
+  }
+  .tab-btn {
+    padding: 0.5rem 1.25rem;
+    border: 2px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--card-bg);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .tab-btn:hover { border-color: var(--primary); color: var(--primary); }
+  .tab-btn.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+  .tab-btn .count {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    padding: 0 0.5rem;
+    font-size: 0.75rem;
+    margin-left: 0.35rem;
+  }
+  .tab-btn:not(.active) .count { background: var(--border); }
+
+  /* Filters */
+  .filters {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    margin-bottom: 1.25rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  .filter-group { display: flex; flex-direction: column; gap: 0.3rem; flex: 1; min-width: 160px; }
+  .filter-group label { font-size: 0.75rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.03em; }
+  .filter-group input, .filter-group select {
+    padding: 0.45rem 0.65rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 0.875rem;
+    color: var(--text);
+    background: white;
+  }
+  .filter-group input:focus, .filter-group select:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px var(--primary-light);
+  }
+
+  /* Stats bar */
+  .stats {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  /* Question cards */
+  .question-list { display: flex; flex-direction: column; gap: 0.75rem; }
+  .question-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    transition: box-shadow 0.15s;
+    position: relative;
+  }
+  .question-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.06); }
+  .question-card.inactive { opacity: 0.6; }
+  .question-id {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35rem;
+  }
+  .question-text { font-size: 1rem; font-weight: 500; margin-bottom: 0.65rem; }
+  .question-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+  .badge {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border-radius: 12px;
+    font-size: 0.7rem;
+    font-weight: 600;
+  }
+  .badge-aspect { background: #ede9fe; color: #6d28d9; }
+  .badge-persona { background: #fef3c7; color: #92400e; }
+  .badge-term { background: #e0f2fe; color: #0369a1; }
+  .badge-source { background: #f1f5f9; color: #475569; }
+  .badge-active { background: #dcfce7; color: #15803d; }
+  .badge-inactive { background: #f1f5f9; color: #94a3b8; }
+  .badge-score {
+    background: var(--primary-light);
+    color: var(--primary);
+    font-weight: 700;
+    min-width: 1.5rem;
+    text-align: center;
+  }
+  .translation-indicator { font-size: 0.7rem; color: var(--text-muted); margin-left: 0.25rem; }
+  .translation-indicator.has-translation { color: var(--active-green); }
+
+  .no-results {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    font-size: 1rem;
+  }
+
+  @media (max-width: 640px) {
+    .container { padding: 1rem; }
+    .filters { flex-direction: column; }
+    .filter-group { min-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>DAMA DMMA Question Bank</h1>
+  <p>Data Management Maturity Assessment — Browse &amp; filter questions</p>
+</header>
+
+<div class="container">
+  <div class="tabs" id="tabs"></div>
+
+  <div class="filters">
+    <div class="filter-group" style="flex:2; min-width:220px;">
+      <label>Search</label>
+      <input type="text" id="searchInput" placeholder="Search question text…">
+    </div>
+    <div class="filter-group">
+      <label>Aspect</label>
+      <select id="filterAspect"><option value="">All aspects</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Persona</label>
+      <select id="filterPersona"><option value="">All personas</option></select>
+    </div>
+    <div class="filter-group">
+      <label>Source</label>
+      <select id="filterSource"><option value="">All sources</option></select>
+    </div>
+    <div class="filter-group" style="flex:0; min-width:120px;">
+      <label>Status</label>
+      <select id="filterActive">
+        <option value="">All</option>
+        <option value="1">Active</option>
+        <option value="0">Inactive</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="stats" id="stats"></div>
+  <div class="question-list" id="questionList"></div>
+</div>
+
+<script>
+(async () => {
+  const resp = await fetch('question_bank.json');
+  const data = await resp.json();
+
+  const categories = Object.keys(data);
+  let currentCategory = categories[0];
+
+  // Collect unique filter values across all categories
+  const allAspects = new Set();
+  const allPersonas = new Set();
+  const allSources = new Set();
+  for (const cat of categories) {
+    for (const q of data[cat]) {
+      (q.aspects || []).forEach(a => allAspects.add(a));
+      (q.persona || []).forEach(p => allPersonas.add(p));
+      if (q.source) allSources.add(q.source);
+    }
+  }
+
+  const populateSelect = (id, values) => {
+    const sel = document.getElementById(id);
+    for (const v of [...values].sort()) {
+      const opt = document.createElement('option');
+      opt.value = v;
+      opt.textContent = v;
+      sel.appendChild(opt);
+    }
+  };
+  populateSelect('filterAspect', allAspects);
+  populateSelect('filterPersona', allPersonas);
+  populateSelect('filterSource', allSources);
+
+  // Render tabs
+  const tabsEl = document.getElementById('tabs');
+  const renderTabs = () => {
+    tabsEl.innerHTML = '';
+    for (const cat of categories) {
+      const btn = document.createElement('button');
+      btn.className = 'tab-btn' + (cat === currentCategory ? ' active' : '');
+      btn.innerHTML = `${cat.charAt(0).toUpperCase() + cat.slice(1)} <span class="count">${data[cat].length}</span>`;
+      btn.addEventListener('click', () => { currentCategory = cat; renderTabs(); renderQuestions(); });
+      tabsEl.appendChild(btn);
+    }
+  };
+
+  const escapeHtml = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+  const renderQuestions = () => {
+    const search = document.getElementById('searchInput').value.toLowerCase();
+    const aspect = document.getElementById('filterAspect').value;
+    const persona = document.getElementById('filterPersona').value;
+    const source = document.getElementById('filterSource').value;
+    const active = document.getElementById('filterActive').value;
+
+    let questions = data[currentCategory];
+
+    const filtered = questions.filter(q => {
+      if (search && !q.text.toLowerCase().includes(search)) return false;
+      if (aspect && !(q.aspects || []).includes(aspect)) return false;
+      if (persona && !(q.persona || []).includes(persona)) return false;
+      if (source && q.source !== source) return false;
+      if (active !== '' && q.active !== Number(active)) return false;
+      return true;
+    });
+
+    document.getElementById('stats').textContent = `Showing ${filtered.length} of ${questions.length} questions`;
+
+    const listEl = document.getElementById('questionList');
+    if (filtered.length === 0) {
+      listEl.innerHTML = '<div class="no-results">No questions match your filters.</div>';
+      return;
+    }
+
+    listEl.innerHTML = filtered.map(q => {
+      const aspects = (q.aspects || []).map(a => `<span class="badge badge-aspect">${escapeHtml(a)}</span>`).join('');
+      const personas = (q.persona || []).map(p => `<span class="badge badge-persona">${escapeHtml(p)}</span>`).join('');
+      const terms = (q.terms || []).map(t => `<span class="badge badge-term">${escapeHtml(t)}</span>`).join('');
+      const sourceB = q.source ? `<span class="badge badge-source">${escapeHtml(q.source)}</span>` : '';
+      const activeB = q.active ? '<span class="badge badge-active">active</span>' : '<span class="badge badge-inactive">inactive</span>';
+      const scoreB = `<span class="badge badge-score" title="Question score">${q.question_score}</span>`;
+      const huTranslation = q.translations && q.translations.hu;
+      const huIndicator = huTranslation
+        ? `<span class="translation-indicator has-translation" title="Hungarian translation available">🇭🇺</span>`
+        : '';
+
+      return `<div class="question-card${q.active ? '' : ' inactive'}">
+        <div class="question-id">#${q.id} ${activeB} ${scoreB} ${huIndicator}</div>
+        <div class="question-text">${escapeHtml(q.text)}</div>
+        ${huTranslation ? `<div class="question-text" style="font-style:italic;color:var(--text-muted);font-size:0.9rem;margin-bottom:0.65rem;">${escapeHtml(huTranslation)}</div>` : ''}
+        <div class="question-meta">${aspects}${personas}${terms}${sourceB}</div>
+      </div>`;
+    }).join('');
+  };
+
+  // Wire up filter events
+  for (const id of ['searchInput', 'filterAspect', 'filterPersona', 'filterSource', 'filterActive']) {
+    document.getElementById(id).addEventListener('input', renderQuestions);
+    document.getElementById(id).addEventListener('change', renderQuestions);
+  }
+
+  renderTabs();
+  renderQuestions();
+})();
+</script>
+</body>
+</html>

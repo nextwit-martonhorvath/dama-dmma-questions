@@ -1,0 +1,32 @@
+[
+  {
+    "term": "Data",
+    "definition": "Raw facts, figures, or observations recorded in a structured or unstructured form, which can be processed and interpreted to produce information.",
+    "translations": { "hu": "" }
+  },
+  {
+    "term": "Decision-making",
+    "definition": "The process of selecting a course of action based on information; in a data context, refers specifically to decisions informed or enabled by data and analytics.",
+    "translations": { "hu": "" }
+  },
+  {
+    "term": "DAMA-DMBOK",
+    "definition": "The Data Management Body of Knowledge published by DAMA International — the globally recognized framework defining data management knowledge areas, practices, and principles.",
+    "translations": { "hu": "" }
+  },
+  {
+    "term": "Data Management Maturity Assessment (DMMA)",
+    "definition": "A structured evaluation of an organization's capabilities across data management disciplines, resulting in a maturity score that identifies strengths and improvement areas.",
+    "translations": { "hu": "" }
+  },
+  {
+    "term": "Maturity Level",
+    "definition": "A stage on a defined scale (typically 1–5) indicating how systematically and effectively an organization performs a given data management capability.",
+    "translations": { "hu": "" }
+  },
+  {
+    "term": "Persona",
+    "definition": "A defined stakeholder type (e.g., data analyst, business manager, IT lead) used to tailor interview questions to the respondent's role and level of data involvement.",
+    "translations": { "hu": "" }
+  }
+]

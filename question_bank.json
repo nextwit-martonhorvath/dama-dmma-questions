@@ -1,0 +1,1920 @@
+{
+  "persona": [
+    {
+      "id": 1,
+      "text": "What is your current position, and which decisions in your role depend most on data?",
+      "aspects": [],
+      "terms": [
+        "Data",
+        "Decision-making"
+      ],
+      "question_score": 10,
+      "active": 1,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "Can you describe your experience working with data, including the tools or methods you use most confidently?",
+      "aspects": [],
+      "terms": [],
+      "question_score": 9,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "How comfortable are you with identifying data quality issues and raising them with the right teams?",
+      "aspects": [],
+      "terms": [],
+      "question_score": 4,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "How do you personally view a data management maturity assessment, and what shapes that perspective?",
+      "aspects": [],
+      "terms": [],
+      "question_score": 10,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "What concerns, if any, would you have about participating in a data management maturity assessment?",
+      "aspects": [],
+      "terms": [],
+      "question_score": 5,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "What specific outcomes from a data management maturity assessment would make it useful in your day-to-day work?",
+      "aspects": [],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business",
+        "technology"
+      ]
+    }
+  ],
+  "company": [
+    {
+      "id": 7,
+      "text": "Can you briefly describe your company (industry, approximate size, and whether it operates in one or multiple regions)?",
+      "aspects": [],
+      "terms": [],
+      "question_score": 10,
+      "active": 1,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "id": 8,
+      "text": "How is your company organized around data today (for example central data team, federated model, or mostly local ownership)?",
+      "aspects": [
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 6,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data",
+        "business",
+        "technology"
+      ]
+    },
+    {
+      "id": 9,
+      "text": "What major company-level priorities or constraints currently influence data initiatives (such as growth, regulation, cost pressure, or modernization)?",
+      "aspects": [
+        "Data Strategy"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 10,
+      "text": "Can you describe your own department and its main tasks, especially the tasks where data plays an important role?",
+      "aspects": [
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 11,
+      "text": "How is your company positioned within a broader group structure (for example: standalone, parent company, subsidiary, or headquarters), and how does that affect data decisions?",
+      "aspects": [
+        "Data Governance",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 12,
+      "text": "How would you describe your business model (for example B2B, B2C, or B2B2C), and what impact does that have on your data needs?",
+      "aspects": [
+        "Data Strategy"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    }
+  ],
+  "assessment": [
+    {
+      "id": 13,
+      "text": "How aligned are your organization's data initiatives with its overall business strategy?",
+      "aspects": [
+        "Data Strategy"
+      ],
+      "terms": [],
+      "question_score": 10,
+      "active": 1,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 14,
+      "text": "How does your organization govern its data? Are there defined policies, roles, or tools for managing data assets?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 10,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 15,
+      "text": "How consistent are data quality checks across your key systems?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 9,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 16,
+      "text": "Do you have a single authoritative source for key business entities like customers or products, or do different systems hold conflicting versions?",
+      "aspects": [
+        "Single Source of Truth / Master Data Management"
+      ],
+      "terms": [],
+      "question_score": 9,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 17,
+      "text": "How are data processing responsibilities divided between IT and business departments?",
+      "aspects": [
+        "Allocation of Data Processing Competences",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 18,
+      "text": "What data management skills exist across your organization, and are they concentrated in IT or spread across business teams?",
+      "aspects": [
+        "Technology Related Skills"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 19,
+      "text": "How would you describe your organization's overall approach to managing data — is it reactive or proactive?",
+      "aspects": [
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 20,
+      "text": "What types of analytics does your organization mainly rely on — descriptive reporting, predictive models, or real-time insights?",
+      "aspects": [
+        "Analytical Focus"
+      ],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 21,
+      "text": "How are reports and dashboards typically created — by IT, by business users with self-service tools, or some mix?",
+      "aspects": [
+        "Way of Creating Data Products",
+        "BI & Reporting Tools"
+      ],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 22,
+      "text": "How do people across the organization access data, and how much do they trust the reports and dashboards they receive?",
+      "aspects": [
+        "Data Access and Trust in Data Products"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 23,
+      "text": "How easy is it to find who owns a dataset or report when an issue appears?",
+      "aspects": [
+        "Data Governance",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 24,
+      "text": "Is there a dedicated leader or role responsible for data management at a senior level in your organization?",
+      "aspects": [
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 8,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 25,
+      "text": "What tools does your organization use for data integration, warehousing, and processing?",
+      "aspects": [
+        "Data Processing Tools",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 26,
+      "text": "How easily can different departments or teams access and share data with each other?",
+      "aspects": [
+        "Data Federation"
+      ],
+      "terms": [],
+      "question_score": 6,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 27,
+      "text": "What is your organization's approach to cloud versus on-premises infrastructure for data management?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 6,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 28,
+      "text": "How often do you review or improve your data management practices?",
+      "aspects": [
+        "Data Management Approach",
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 7,
+      "active": 0,
+      "source": "generated",
+      "translations": {
+        "hu": ""
+      },
+      "persona": [
+        "data"
+      ]
+    },
+    {
+      "id": 29,
+      "text": "Is there an officially appointed person responsible for the organization’s data assets whom business users can turn to?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 30,
+      "text": "Are roles and responsibilities related to data management clearly defined and understood across teams?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 31,
+      "text": "Are there documented guidelines or policies for managing and sharing data?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 32,
+      "text": "Does the business have visibility into how much of the company's data assets are actually being used?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 33,
+      "text": "Is there an internal data inventory or data catalog accessible to business users?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 34,
+      "text": "Do data quality issues ever hinder reporting or decision-making processes?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 35,
+      "text": "Is there a regular process or automated monitoring in place to ensure key data quality?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 36,
+      "text": "Is there a designated person or team (not only IT) responsible for data quality improvement?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 37,
+      "text": "Are business user feedback and data quality issues actively used to improve data accuracy?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 38,
+      "text": "Are data quality indicators (e.g., error rates, missing values) measured and reported?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 39,
+      "text": "Do we know which master data (e.g., customer, product) appears in multiple systems?",
+      "aspects": [
+        "Single Source of Truth / Master Data Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 40,
+      "text": "Are there rules that define who can modify master data and how conflicts are resolved?",
+      "aspects": [
+        "Single Source of Truth / Master Data Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 41,
+      "text": "Are master data managed centrally or stored redundantly across several systems?",
+      "aspects": [
+        "Single Source of Truth / Master Data Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 42,
+      "text": "Can business users access a unified, 360° view of customers or products?",
+      "aspects": [
+        "Single Source of Truth / Master Data Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 43,
+      "text": "Are different roles involved in the data process (collection, analysis, reporting), or is it handled by a few individuals?",
+      "aspects": [
+        "Allocation of Data Processing Competences"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 44,
+      "text": "Do business users have basic data and reporting skills (data literacy)?",
+      "aspects": [
+        "Allocation of Data Processing Competences"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 45,
+      "text": "Is the boundary between IT and business responsibilities in data processes clearly defined?",
+      "aspects": [
+        "Allocation of Data Processing Competences"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 46,
+      "text": "Are there business “data champions” who help colleagues with data-related questions?",
+      "aspects": [
+        "Allocation of Data Processing Competences"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 47,
+      "text": "To what extent are business decisions based on data and reports rather than personal experience?",
+      "aspects": [
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 48,
+      "text": "Is data processing performed on a daily, weekly, or real-time basis?",
+      "aspects": [
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 49,
+      "text": "Are there automated alerts when a key business indicator deviates from normal?",
+      "aspects": [
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 50,
+      "text": "Are predictive or advanced analytics models used for business purposes?",
+      "aspects": [
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 51,
+      "text": "Is data-driven decision-making a strategic priority for leadership?",
+      "aspects": [
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 52,
+      "text": "Is there a designated Head of Data or Chief Data Officer responsible for data strategy?",
+      "aspects": [
+        "Data Management Organization",
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 53,
+      "text": "Are data governance processes supported organization-wide (not just IT-driven)?",
+      "aspects": [
+        "Data Management Organization",
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 54,
+      "text": "Do business and IT collaborate effectively around shared data goals?",
+      "aspects": [
+        "Data Management Organization",
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 55,
+      "text": "Is the role of the data leader recognized and accepted at the executive level?",
+      "aspects": [
+        "Data Management Organization",
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 56,
+      "text": "Is report creation a standardized process, or is it handled in an ad hoc way?",
+      "aspects": [
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 57,
+      "text": "Are reusable data and reporting components (“building blocks”) available?",
+      "aspects": [
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 58,
+      "text": "Is there a central report catalog listing all official business reports?",
+      "aspects": [
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 59,
+      "text": "Is there a documented process for report development, approval, and versioning?",
+      "aspects": [
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 60,
+      "text": "Are report owners clearly assigned and easy to contact?",
+      "aspects": [
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 61,
+      "text": "Is there a standardized reporting tool used across the organization (e.g., Power BI, Tableau)?",
+      "aspects": [
+        "BI & Reporting Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 62,
+      "text": "Can business users create or modify their own reports using the tool?",
+      "aspects": [
+        "BI & Reporting Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 63,
+      "text": "Are training and support available to help business users make effective use of BI tools?",
+      "aspects": [
+        "BI & Reporting Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 64,
+      "text": "Are BI reports and dashboards regularly used to support executive decision-making?",
+      "aspects": [
+        "BI & Reporting Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 65,
+      "text": "Is data extraction and processing automated, or does it rely heavily on manual steps?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 66,
+      "text": "Are there documented data flow processes showing how data moves from source to report?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 67,
+      "text": "Is there a tool or method for tracking data lineage (data flow and dependencies)?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 68,
+      "text": "Do automated monitoring and error detection systems exist for data processes?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 69,
+      "text": "Do business reports pull from multiple sources but through a unified data warehouse?",
+      "aspects": [
+        "Data Federation",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 70,
+      "text": "Is the data architecture structured into layers (source, staging, DWH, analytics)?",
+      "aspects": [
+        "Data Federation",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 71,
+      "text": "Does the organization have a data lake or similar solution for handling unstructured data (e.g., text, images)?",
+      "aspects": [
+        "Data Federation",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 72,
+      "text": "Does the organization use cloud-based solutions for data management or analytics?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 73,
+      "text": "Are business users aware of the benefits and risks of using cloud services?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 74,
+      "text": "Is there a policy or strategy defining how cloud services are used and secured?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 75,
+      "text": "Are public, private, or hybrid cloud solutions chosen consciously based on business needs?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 76,
+      "text": "Does the organization have an exit strategy in place for switching or leaving cloud providers?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "dmma questionnaire",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 77,
+      "text": "Who is the Head of Data, and who is the main lead?",
+      "aspects": [
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 78,
+      "text": "What is the level of representation of data leadership in the organization (C-x, where x = ?)?",
+      "aspects": [
+        "Head of Data"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 79,
+      "text": "If data is not represented at C-level, in which department is it represented (for example IT, Finance, or another function)?",
+      "aspects": [
+        "Head of Data",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 80,
+      "text": "How does the data management organizational structure look?",
+      "aspects": [
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 81,
+      "text": "How is the data department linked to other stakeholders?",
+      "aspects": [
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 82,
+      "text": "Are there key persons or dedicated organizational units on the business side who process data to create information?",
+      "aspects": [
+        "Allocation of Data Processing Competences",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 83,
+      "text": "Who are the main customers of BI, and who are the main stakeholders among data consumers?",
+      "aspects": [
+        "BI & Reporting Tools",
+        "Data Access and Trust in Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 84,
+      "text": "What is the dominant data management approach?",
+      "aspects": [
+        "Data Management Approach",
+        "Analytical Focus"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 85,
+      "text": "What is the dominant characteristic of data products: descriptive, predictive, or prescriptive, and in what approximate proportions?",
+      "aspects": [
+        "Analytical Focus"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 86,
+      "text": "Are data projects centrally coordinated, or do they run silo-wise?",
+      "aspects": [
+        "Data Management Approach",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 87,
+      "text": "Is there any solution for advanced analytics, and if so, what are the main use cases?",
+      "aspects": [
+        "Analytical Focus",
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 88,
+      "text": "How do BI technology and architecture look today?",
+      "aspects": [
+        "BI & Reporting Tools",
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 89,
+      "text": "What are the main data sources?",
+      "aspects": [
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 90,
+      "text": "Is there a data warehouse in use, and is there also a data lake?",
+      "aspects": [
+        "Data Management Approach",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 91,
+      "text": "What are the current directions in the development of the BI and data architecture environment?",
+      "aspects": [
+        "Data Strategy",
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 92,
+      "text": "What technology is used for data integration, such as batch ETL, middleware, or streaming?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 93,
+      "text": "Who uses BI tools: only IT, or are there report producers on the business side as well?",
+      "aspects": [
+        "BI & Reporting Tools",
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 94,
+      "text": "Where and how are reports and dashboards published, and how is access regulated?",
+      "aspects": [
+        "Way of Creating Data Products",
+        "Data Access and Trust in Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 95,
+      "text": "How does the data management organization cover data processing tasks, and how are skills and competencies distributed?",
+      "aspects": [
+        "Technology Related Skills",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 96,
+      "text": "How much resource is dedicated to data management activities from raw data to information?",
+      "aspects": [
+        "Technology Related Skills",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 97,
+      "text": "Who specifies data products?",
+      "aspects": [
+        "Way of Creating Data Products",
+        "Allocation of Data Processing Competences"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 98,
+      "text": "Who develops reports?",
+      "aspects": [
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 99,
+      "text": "Who builds data models?",
+      "aspects": [
+        "Technology Related Skills",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 100,
+      "text": "Who builds the data warehouse?",
+      "aspects": [
+        "Data Processing Tools",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 101,
+      "text": "Who does ETL?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 102,
+      "text": "Who plays the architect role?",
+      "aspects": [
+        "Technology Related Skills",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 103,
+      "text": "Who operates servers?",
+      "aspects": [
+        "Technology Related Skills",
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 104,
+      "text": "Who deals with access rights?",
+      "aspects": [
+        "Data Governance",
+        "Data Access and Trust in Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 105,
+      "text": "How far is the business side involved in these processes?",
+      "aspects": [
+        "Allocation of Data Processing Competences",
+        "Technology Related Skills"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 106,
+      "text": "Where are the bottlenecks in data processing?",
+      "aspects": [
+        "Data Management Approach",
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 107,
+      "text": "Does the company use external vendors for staffing projects with big resource needs?",
+      "aspects": [
+        "Technology Related Skills",
+        "Data Management Organization"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 108,
+      "text": "What are the dominant technologies in the stack?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 109,
+      "text": "What are the dominant technologies used for integration?",
+      "aspects": [
+        "Data Processing Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 110,
+      "text": "What are the dominant technologies used for data warehouse and data mart layers?",
+      "aspects": [
+        "Data Processing Tools",
+        "Data Architecture Layers"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 111,
+      "text": "What are the dominant technologies used for reporting and dashboarding?",
+      "aspects": [
+        "BI & Reporting Tools"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 112,
+      "text": "What AI, ML, or other advanced technologies are in use?",
+      "aspects": [
+        "Analytical Focus",
+        "Data Management Approach"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 113,
+      "text": "Who owns data?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 114,
+      "text": "Are there data silos?",
+      "aspects": [
+        "Data Federation"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 115,
+      "text": "Are there officially appointed data owners?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 116,
+      "text": "Is there a data governance framework in use?",
+      "aspects": [
+        "Data Governance"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 117,
+      "text": "Do you have a data catalog and/or a report catalog?",
+      "aspects": [
+        "Data Governance",
+        "Way of Creating Data Products"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 118,
+      "text": "How does data quality look today?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 119,
+      "text": "Is there a system and/or process in place to take care of data quality?",
+      "aspects": [
+        "Data Quality"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 120,
+      "text": "Is there a single source of truth, golden source, or master data, whether officially defined or not?",
+      "aspects": [
+        "Single Source of Truth / Master Data Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    },
+    {
+      "id": 121,
+      "text": "Do you have any systems or functions in the cloud?",
+      "aspects": [
+        "Cloud Management"
+      ],
+      "terms": [],
+      "question_score": 0,
+      "active": 0,
+      "source": "official questions",
+      "translations": {
+        "hu": ""
+      },
+      "persona": []
+    }
+  ]
+}
