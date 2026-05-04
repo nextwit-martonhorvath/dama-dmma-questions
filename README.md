@@ -2,6 +2,8 @@
 
 This repository is the collection of questions used by **DAMA Hungary** for its **Data Management Maturity Assessment (DMMA)**. The question set is designed for structured interview settings and is intentionally evolving: questions are added, scored, and activated over time as the assessment methodology matures. The question bank also serves as an input for an agentic interview assessment.
 
+👉 **[Browse the Question Bank](https://nextwit-martonhorvath.github.io/dama-dmma-questions/)** — filterable, searchable list of all questions.
+
 ---
 
 ## Purpose
