@@ -1,12 +1,12 @@
 # DAMA Hungary – Data Management Maturity Assessment Question Bank
 
-This repository is the collection of questions used by **DAMA Hungary** for its **Data Management Maturity Assessment (DMMA)**. The question set is designed for structured interview settings and is intentionally evolving: questions are added, scored, and activated over time as the assessment methodology matures.
+This repository is the collection of questions used by **DAMA Hungary** for its **Data Management Maturity Assessment (DMMA)**. The question set is designed for structured interview settings and is intentionally evolving: questions are added, scored, and activated over time as the assessment methodology matures. The question bank also serves as an input for an agentic interview assessment.
 
 ---
 
 ## Purpose
 
-The assessment helps organizations understand where they stand across key data management disciplines. Questions are posed to different **personas** (roles within an organization) and cover both organizational context and specific data management practices. The insights gathered feed into a maturity scoring model aligned with the DAMA-DMBOK framework.
+The assessment helps organizations understand where they stand across key data management disciplines. Questions are posed to different personas (roles within an organization) and cover both organizational context and specific data management practices. The insights gathered could feed into a maturity scoring model aligned with the DAMA-DMBOK framework.
 
 ---
 
