@@ -212,7 +212,7 @@
   const data = await resp.json();
 
   const categories = Object.keys(data);
-  let currentCategory = categories[0];
+  let currentCategory = null;
 
   // Collect unique filter values across all categories
   const allAspects = new Set();
@@ -247,7 +247,7 @@
       const btn = document.createElement('button');
       btn.className = 'tab-btn' + (cat === currentCategory ? ' active' : '');
       btn.innerHTML = `${cat.charAt(0).toUpperCase() + cat.slice(1)} <span class="count">${data[cat].length}</span>`;
-      btn.addEventListener('click', () => { currentCategory = cat; renderTabs(); renderQuestions(); });
+      btn.addEventListener('click', () => { currentCategory = currentCategory === cat ? null : cat; renderTabs(); renderQuestions(); });
       tabsEl.appendChild(btn);
     }
   };
@@ -261,7 +261,9 @@
     const source = document.getElementById('filterSource').value;
     const active = document.getElementById('filterActive').value;
 
-    let questions = data[currentCategory];
+    let questions = currentCategory
+      ? data[currentCategory]
+      : categories.flatMap(cat => data[cat].map(q => ({ ...q, _category: cat })));
 
     const filtered = questions.filter(q => {
       if (search && !q.text.toLowerCase().includes(search)) return false;
@@ -293,7 +295,7 @@
         : '';
 
       return `<div class="question-card${q.active ? '' : ' inactive'}">
-        <div class="question-id">#${q.id} ${activeB} ${scoreB} ${huIndicator}</div>
+        <div class="question-id">${!currentCategory ? `<span class="badge badge-source">${escapeHtml(q._category || currentCategory)}</span> ` : ''}#${q.id} ${activeB} ${scoreB} ${huIndicator}</div>
         <div class="question-text">${escapeHtml(q.text)}</div>
         ${huTranslation ? `<div class="question-text" style="font-style:italic;color:var(--text-muted);font-size:0.9rem;margin-bottom:0.65rem;">${escapeHtml(huTranslation)}</div>` : ''}
         <div class="question-meta">${aspects}${personas}${terms}${sourceB}</div>
